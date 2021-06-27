@@ -29,7 +29,7 @@ function predictOnLoad() {
 let model;
 (async function () {
 	
-	model = await tf.loadModel('https://github.com/kishansinha181/DR-Project-/blob/main/model_dr_2/model.json');
+	model = await tf.loadModel('https://cors-anywhere.herokuapp.com/https://github.com/kishansinha181/DR-Project-/blob/main/model_dr_2/model.json');
 // 	model = await tf.loadModel('https://github.com/kishansinha181/DR-Project-/blob/main/model%2Cjson');
 	
 	
