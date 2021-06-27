@@ -29,7 +29,10 @@ function predictOnLoad() {
 let model;
 (async function () {
 	
-	model = await tf.loadModel('https://cors-anywhere.herokuapp.com/http://dr.test.woza.work/model_dr_2/model.json');
+// 	model = await tf.loadModel('https://cors-anywhere.herokuapp.com/http://dr.test.woza.work/model_dr_2/model.json');
+	model = await tf.loadModel('https://github.com/kishansinha181/DR-Project-/blob/main/model%2Cjson');
+	
+	
 	$("#selected-image").attr("src", "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_tools/beautiful_eye_secrets_slideshow/getty_rf_photo_of_closeup_of_long_full_eyelashes.jpg");
 	
 	// Hide the model loading spinner
